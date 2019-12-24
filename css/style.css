@@ -44,20 +44,24 @@ body {
 }
 
 .sign-in {
-    border: 3px solid black ;
+    /* border: 3px solid black ; */
     width: 350px;
     height: 326px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .top-part {
-    border: 3px solid green ;
+    /* border: 3px solid green ; */
     width: 98.2%;
+    height: 42px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-h1  {
-    color: red;
+.twi-icon {
+    color: #4996DF;
+    font-size: 49px;
 }

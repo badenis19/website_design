@@ -1,8 +1,38 @@
-.button-white {
+.button-blue {
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: white;
+    border-radius: 100px ;
     text-decoration: none;
-    font-size: 20px;
+    text-align: center;
+    width: 350px;
+    height: 34px;
+    margin-bottom: 10px;
+    line-height: 31px;
 }
 
-.button-blue {
+.button-white {
     text-decoration: none;
+    color: #1da1f2;
+    border-radius: 100px ;
+    text-align: center;
+    border: 1px solid #1da1f2;
+    width: 350px;
+    height: 34px;
+    line-height: 31px;
 }
+
+.button-white-small {
+    text-decoration: none;
+    color: #1da1f2;
+    border-radius: 30px ;
+    text-align: center;
+    border: 1px solid #1da1f2;
+    width: 61px;
+    height: 42px;
+    padding: 10px;
+    margin-top: 55px;
+    
+}
+
+
