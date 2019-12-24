@@ -1,3 +1,5 @@
+@import './components/button.css';
+
 body {
     height: 100vh;
     width: 100vw;
@@ -12,7 +14,8 @@ body {
 }
 
 .left {
-    border: 3px solid red ;
+    background-color: #4996DF;
+    /* border: 3px solid red ; */
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -21,15 +24,38 @@ body {
 }
 
 .info {
-    width: 388px;
-    height: 264px;
-    border: 3px solid red ;
+    width: 47.2vh;
+    height: 32.1vh;
+    /* border: 3px solid red ; */
+    font-size: 18px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
 }
 
 .right {
-    border: 3px solid green ;
+    /* border: 3px solid green ; */
     width: 50vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in {
+    border: 3px solid black ;
+    width: 350px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-part {
+    border: 3px solid green ;
+    width: 98.2%;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1  {
