@@ -83,11 +83,10 @@ body {
     align-items: center;
 }
 
-
-
 input {
     width: 210px;
     height: 40px;
     margin-right: 20px;
+    font-size: 14px;
     /* border-radius: 1%; */
 }
