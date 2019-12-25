@@ -1,5 +1,9 @@
 @import './components/button.css';
 
+html {
+    font-family: "Helvetica Neue"
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -89,4 +93,22 @@ input {
     margin-right: 20px;
     font-size: 14px;
     /* border-radius: 1%; */
+}
+
+.footer {
+    height: 49px;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid grey;
+}
+
+.footer a {
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.join h3 {
+    margin-bottom: 0;
 }
