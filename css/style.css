@@ -39,17 +39,23 @@ body {
     width: 50vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .sign-in {
-    /* border: 3px solid black ; */
+    border: 3px solid black ;
     width: 350px;
     height: 326px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: absolute;
+    /* margin: auto auto; */
+    left: 25%;
+    right: 25%;
+    top: 25%;
 }
 
 .top-part {
@@ -64,4 +70,12 @@ body {
 .twi-icon {
     color: #4996DF;
     font-size: 49px;
+}
+
+.login {
+    top: 20px;
+    border: 3px solid green ;
+    height: 78px;
+    width: 100vw;
+    position: relative;
 }
