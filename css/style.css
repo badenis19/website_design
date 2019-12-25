@@ -45,7 +45,7 @@ body {
 }
 
 .sign-in {
-    border: 3px solid black ;
+    /* border: 3px solid black ; */
     width: 350px;
     height: 326px;
     display: flex;
@@ -74,8 +74,20 @@ body {
 
 .login {
     top: 20px;
-    border: 3px solid green ;
+    /* border: 3px solid green ; */
     height: 78px;
     width: 100vw;
     position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+input {
+    width: 210px;
+    height: 40px;
+    margin-right: 20px;
+    /* border-radius: 1%; */
 }
