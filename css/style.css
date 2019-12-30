@@ -119,3 +119,29 @@ i {
     font-size: 17px;
     font-weight: bold;
 }
+
+.hidden {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1150px) {
+  .login {
+    display: none;
+  }
+  .hidden {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 763px) {
+  .main {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .right {
+    width: 100vw;
+  }
+  .left {
+    width: 100vw;
+  }
+}
