@@ -1,7 +1,7 @@
 @import './components/button.css';
 
 html {
-    font-family: "Helvetica Neue"
+    font-family: "Helvetica Neue";
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     width: 47.2vh;
     height: 32.1vh;
     /* border: 3px solid red ; */
-    font-size: 18px; 
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -44,8 +44,9 @@ body {
     height: 100vh;
     display: flex;
     position: relative;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .sign-in {
@@ -56,10 +57,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    /* margin: auto auto; */
-    left: 25%;
-    right: 25%;
-    top: 25%;
 }
 
 .top-part {
@@ -81,8 +78,8 @@ body {
     /* border: 3px solid green ; */
     height: 78px;
     width: 100vw;
-    position: relative;
-    display: flex; 
+    position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -111,4 +108,14 @@ input {
 
 .join h3 {
     margin-bottom: 0;
+}
+
+i {
+    font-size: 35px;
+    padding-right: 20px;
+}
+
+.font-right {
+    font-size: 17px;
+    font-weight: bold;
 }

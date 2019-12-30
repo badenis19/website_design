@@ -20,7 +20,7 @@
         </div>
         <div class="right">
             <div class="login">
-                <input type="text" name="username" placeholder="  Phone number, email address" >
+                    <input type="text" name="username" placeholder="  Phone number, email address" >
                 <input type="text" name="password" placeholder="  Password">
                 <div><a class="button-white-small" href="">Log in</a ></div>
             </div>
@@ -39,7 +39,7 @@
                 </div>
                 <!-- <div> -->
                     <a class="button-blue" href="">Sign up</a>
-                    <a class="button-white" href="">Log in</a>
+                    <a class="button-white" href="">Log in</a> 
                 <!-- </div> -->
             </div>
         </div>
@@ -47,6 +47,6 @@
             <a href=""></a> links<br> © 2019 Twitter
         </div>
     </div>
-
+    
 </body>
 </html>

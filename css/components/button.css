@@ -1,6 +1,12 @@
+:root {
+    /* CSS variable example */
+    /* needs to be defined on the :root for scope */
+    --blue-color: #1da1f2;
+}
+
 .button-blue {
-    background-color: #1da1f2;
-    border: 1px solid #1da1f2;
+    background-color: var(--blue-color);
+    border: 1px solid var(--blue-color);
     color: white;
     border-radius: 100px ;
     text-decoration: none;
@@ -13,10 +19,11 @@
 
 .button-white {
     text-decoration: none;
-    color: #1da1f2;
+    /* color: #1da1f2; */
+    color: var(--blue-color);
     border-radius: 100px ;
     text-align: center;
-    border: 1px solid #1da1f2;
+    border: 1px solid var(--blue-color);
     width: 350px;
     height: 34px;
     line-height: 31px;
@@ -27,7 +34,7 @@
     color: #1da1f2;
     border-radius: 30px ;
     text-align: center;
-    border: 1px solid #1da1f2;
+    border: 1px solid var(--blue-color);
     width: 61px;
     height: 42px;
     padding: 10px;
